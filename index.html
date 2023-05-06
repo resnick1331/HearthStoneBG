@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hero of The Storm</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <script src="data.js"></script>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        img{
+            margin: -20px 0px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body onload="actualizarCantidadHeroes()">
+<p>Cantidad de Heroes: <span id="cantidad-heroes"></span></p>
+<p>Primeros Puestos: <span id="cantidad-1st"></span> </p>
+<div id="app" class="container-fluid">
+    <div class="row">
+        <div v-for="hero in heroes" class="col-sm-6 col-md-2 d-flex">
+            <div class="card flex-fill mb-3">
+                <div class="card-header">
+                    <h4>{{ hero.heroName }}</h4>
+                    <img :src="hero.heroImg" alt="Imagen de {{hero.heroName}}" :style="{ filter: hero.firstPlace ? '' : 'grayscale(100%)' }">
+                    <p>Gane: {{hero.firstPlace}}</p>
+                    <p>4to: {{hero.fourthPlace}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            heroes: datos
+        }
+    })
+</script>
+</body>
+</html>
