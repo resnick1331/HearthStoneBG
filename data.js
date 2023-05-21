@@ -516,6 +516,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Voone maestro del Rock",
+    "heroImg": "images/hero_91_Voone_maestro_del_rock.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Xyrella",
     "heroImg": "images/hero_86_Xyrella.png",
     "played": true,
