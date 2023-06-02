@@ -90,6 +90,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Capitán Hoggar",
+    "heroImg": "images/hero_92_Capitan_Hoggar.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Chenvaala",
     "heroImg": "images/hero_15_Chenvaala.png",
     "played": false,
@@ -152,9 +158,9 @@ var datos = [
   },{
     "heroName": "Elise Buscaestelar",
     "heroImg": "images/hero_25_Elise_Buscaestelar.png",
-    "played": false,
+    "played": true,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
   },{
     "heroName": "Embajador Faelin",
     "heroImg": "images/hero_26_Embajador_Faelin.png",

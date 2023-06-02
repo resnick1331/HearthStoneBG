@@ -13,15 +13,29 @@
     <style>
         body{
             text-align: center;
+            background-image: url("images/fondo_mesa.jpg");
+            background-size: contain;
         }
 
         img{
             margin: -20px 0px;
             width: 100%;
         }
+
+        .logo{
+            width: 20%;
+            display: block;
+            text-align: center;
+            margin: auto;
+        }
+
+        .card-header{
+            background: rgba(255, 255, 255, 0.73) !important;
+        }
     </style>
 </head>
 <body onload="actualizarCantidadHeroes()">
+<img src="images/logo_header.webp" class="logo">
 <input type="text" v-model="searchQuery" placeholder="Buscar">
 <p>Cantidad de Heroes: <span id="cantidad-heroes"></span></p>
 <p>Primeros Puestos: <span id="cantidad-1st"></span> </p>
