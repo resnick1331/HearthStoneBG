@@ -1,3 +1,3 @@
 # HearthStone
 
-[HearthStone](https://edme88.github.io/Hero-of-Storm/)
+[HearthStone](https://edme88.github.io/HearthStone/)
