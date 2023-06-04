@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+img{
+    margin: -20px 0px;
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.card-header{
+    background: rgba(255, 255, 255, 0.73) !important;
+}
