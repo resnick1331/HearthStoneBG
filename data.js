@@ -512,9 +512,9 @@ var datos = [
   },{
     "heroName": "Varden Aferralba",
     "heroImg": "images/hero_84_Varden_Aferralba.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Vol'jin",
     "heroImg": "images/hero_85_Vol_jin.png",
