@@ -120,8 +120,14 @@ var datos = [
     "firstPlace": false,
     "fourthPlace": false
   },{
-    "heroName": "Drek'Thar",
-    "heroImg": "images/hero_19_Drek_Thar.png",
+    "heroName": "ETC Representante",
+    "heroImg": "images/hero_93_ETC_representante.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
+    "heroName": "Edwin VanCleef",
+    "heroImg": "images/hero_20_Edwin_VanCleef.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -206,6 +212,12 @@ var datos = [
   },{
     "heroName": "Illidan Tempestira",
     "heroImg": "images/hero_33_Illidan_Tempestira.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
+    "heroName": "Inge el Hi,no Férreo",
+    "heroImg": "images/hero_94_inge_el_himno_ferreo.png",
     "played": false,
     "firstPlace": false,
     "fourthPlace": false
