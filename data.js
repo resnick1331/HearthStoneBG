@@ -3,7 +3,7 @@ var datos = [
     "heroName": "A. F. Ka",
     "heroImg": "images/hero_0_A_F_Ka.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
   "heroName": "Al'Akir",
@@ -20,38 +20,38 @@ var datos = [
   },{
     "heroName": "Alavendaval",
     "heroImg": "images/hero_3_Alavendaval.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Alexstrasza",
     "heroImg": "images/hero_4_Alexstrasza.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Aranna Buscaestelar",
     "heroImg": "images/hero_5_Aranna_Buscaestelar.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Archivillano Rafaam",
     "heroImg": "images/hero_6_Archivillano_Rafaam.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Baldomero",
     "heroImg": "images/hero_7_Baldomero.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Barón del atraco Togafloja",
     "heroImg": "images/hero_8_Baron_del_atraco_Togafloja.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Bru'kan",
@@ -68,9 +68,9 @@ var datos = [
   },{
     "heroName": "Capitana Colmigarfio",
     "heroImg": "images/hero_11_Capitana_Colmigarfio.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Capitana Eudora",
     "heroImg": "images/hero_12_Capitana_Eudora.png",
@@ -81,26 +81,26 @@ var datos = [
     "heroName": "Capitán de los cielos Kragg",
     "heroImg": "images/hero_13_Capitan_de_los_cielos_Kragg.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Cariel Roame",
     "heroImg": "images/hero_14_Cariel_Roame.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Capitán Hoggar",
     "heroImg": "images/hero_92_Capitan_Hoggar.png",
     "played": true,
-    "firstPlace": true,
-    "fourthPlace": true
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Chenvaala",
     "heroImg": "images/hero_15_Chenvaala.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Cocinitas el cocinero",
     "heroImg": "images/hero_16_Cocinitas_el_cocinero.png",
@@ -111,14 +111,14 @@ var datos = [
     "heroName": "Daryl el Bailarín",
     "heroImg": "images/hero_17_Daryl_el_Bailarin.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Domadinos Brann",
     "heroImg": "images/hero_18_Domadinos_Brann.png",
-    "played": false,
+    "played": true,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
   },{
     "heroName": "ETC Representante",
     "heroImg": "images/hero_93_ETC_representante.png",
@@ -129,25 +129,26 @@ var datos = [
     "heroName": "Edwin VanCleef",
     "heroImg": "images/hero_20_Edwin_VanCleef.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
-  },{
-    "heroName": "Edwin VanCleef",
-    "heroImg": "images/hero_20_Edwin_VanCleef.png",
+  },//{
+    //"heroName": "Edwin VanCleef",
+    //"heroImg": "images/hero_20_Edwin_VanCleef.png",
+    //"played": true,
+    //"firstPlace": true,
+    //"fourthPlace": true
+  //},
+  {
+    "heroName": "El Carcelero",
+    "heroImg": "images/hero_21_El_Carcelero.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
-  },{
-    "heroName": "El Carcelero",
-    "heroImg": "images/hero_21_El_Carcelero.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
   },{
     "heroName": "El Curator",
     "heroImg": "images/hero_22_El_Curator.png",
     "played": true,
-    "firstPlace": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "El Gran Akazamzarak",
