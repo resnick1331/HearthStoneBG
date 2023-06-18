@@ -23,7 +23,7 @@
             <div class="card flex-fill mb-3">
                 <div class="card-header">
                     <h4>{{ hero.heroName }}</h4>
-                    <img :src="hero.heroImg" :alt="'Imagen de ' + hero.heroName" :style="{ filter: hero.firstPlace ? '' : 'grayscale(100%)' }">
+                    <img :src="hero.heroImg" :alt="'Imagen de ' + hero.heroName" :style="{filter: hero.firstPlace ? '' : hero.fourthPlace ? 'sepia(90%)' : 'grayscale(100%)'}">
                     <p>Gane: {{hero.firstPlace}}</p>
                     <p>4to: {{hero.fourthPlace}}</p>
                 </div>
