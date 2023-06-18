@@ -575,4 +575,5 @@ var datos = [
 const actualizarCantidadHeroes = () => {
   document.getElementById('cantidad-heroes').innerHTML = datos.length;
   document.getElementById('cantidad-1st').innerHTML = datos.filter(hero => hero.firstPlace).length;
+  document.getElementById('cantidad-4th').innerHTML = datos.filter(hero => hero.fourthPlace).length;
 };

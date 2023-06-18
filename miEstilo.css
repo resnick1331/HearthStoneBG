@@ -17,3 +17,18 @@ img{
 .card-header{
     background: rgba(255, 255, 255, 0.73) !important;
 }
+
+h4{
+    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;      
+}
+
+.titleContainer{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 2px double #0a0a0a;
+
+}
