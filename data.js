@@ -33,7 +33,7 @@ var datos = [
     "heroName": "Aranna Buscaestelar",
     "heroImg": "images/hero_5_Aranna_Buscaestelar.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Archivillano Rafaam",
@@ -216,7 +216,7 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
-    "heroName": "Inge el Hi,no Férreo",
+    "heroName": "Inge el Himno Férreo",
     "heroImg": "images/hero_94_inge_el_himno_ferreo.png",
     "played": true,
     "firstPlace": true,
@@ -577,3 +577,4 @@ const actualizarCantidadHeroes = () => {
   document.getElementById('cantidad-1st').innerHTML = datos.filter(hero => hero.firstPlace).length;
   document.getElementById('cantidad-4th').innerHTML = datos.filter(hero => hero.fourthPlace).length;
 };
+
