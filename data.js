@@ -285,7 +285,7 @@ var datos = [
     "heroName": "Malífica Tormenta de Maná",
     "heroImg": "images/hero_44_Malifica_Tormenta_de_Mana.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Molino Tormenta de Maná",

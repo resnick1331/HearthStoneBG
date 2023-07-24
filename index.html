@@ -14,7 +14,17 @@
 </head>
 <body onload="actualizarCantidadHeroes()">
 <img src="images/logo_header.webp" class="logo">
-<input type="text" v-model="searchQuery" placeholder="Buscar">
+
+
+<template>
+    <div id="appS">
+      <input v-model="searchQuery">
+      <div v-for="hero in filteredHeroes" :key="hero.heroName">{{r.title}}</div>
+    </div>
+</template>
+
+
+
 <p>Cantidad de Heroes: <span id="cantidad-heroes"></span></p>
 <p>Primeros Puestos: <span id="cantidad-1st"></span> </p>
 <p>Podio Top 4: <span id="cantidad-4th"></span> </p>
@@ -45,12 +55,37 @@
         },
         computed: {
             filteredItems() {
-                return this.heroes.filter(hero => {
+                return this.heroes.filter((hero) => {
                     return hero.heroName.toLowerCase().includes(this.searchQuery.toLowerCase());
                 });
             }
         },
     })
 </script>
+
+<script>
+    let appS = new Vue({
+        el: '#app',
+        data: {
+            searchQuery: '',
+            heroes: datos
+        },
+        computed: {
+            resultQuery() {
+            if (this.searchQuery) {
+            filteredHeroes() {
+                return this.heroes.filter((hero) => {
+                    return this.searchQuery
+                    .toLowerCase()
+                    .split("")
+                    .every(v => hero.heroName.toLowerCase().includes(v));                   
+                });
+            } }else {
+                return this.resources
+            }
+        },
+    }})
+</script>
 </body>
 </html>
+
