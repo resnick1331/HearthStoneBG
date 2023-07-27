@@ -537,7 +537,7 @@ var datos = [
     "heroName": "Voone maestro del Rock",
     "heroImg": "images/hero_91_Voone_maestro_del_rock.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Xyrella",
