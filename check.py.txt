@@ -1,0 +1,1 @@
+print("Que tus dias sean largos y escasos tus contratiempos")
