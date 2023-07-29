@@ -26,9 +26,16 @@ h4{
 }
 
 .titleContainer{
-    height: 60px;
+    height: 70px;
     line-height: 60px;
     text-align: center;
     border: 2px double #0a0a0a;
 
+}
+
+.item {
+    width: fit-content;
+    background-color: #8ca0ff;
+    /*#padding: 25px;
+    margin-bottom: 5em;*/
 }
