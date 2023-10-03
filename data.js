@@ -153,7 +153,7 @@ var datos = [
     "heroName": "El Gran Akazamzarak",
     "heroImg": "images/hero_23_El_Gran_Akazamzarak.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "El Rey Exánime",
@@ -249,7 +249,7 @@ var datos = [
     "heroName": "Lady Vashj",
     "heroImg": "images/hero_38_Lady_Vashj.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Lord Barov",
@@ -279,7 +279,7 @@ var datos = [
     "heroName": "Malygos",
     "heroImg": "images/hero_43_Malygos.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Malífica Tormenta de Maná",
@@ -303,7 +303,7 @@ var datos = [
     "heroName": "Múrloc Holmes",
     "heroImg": "images/hero_47_Murloc_Holmes.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "N'Zoth",
@@ -405,7 +405,7 @@ var datos = [
     "heroName": "Reno Jackson",
     "heroImg": "images/hero_64_Reno_Jackson.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Rey Mukla",
