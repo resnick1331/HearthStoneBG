@@ -411,7 +411,7 @@ var datos = [
     "heroName": "Rey Mukla",
     "heroImg": "images/hero_65_Rey_Mukla.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Rey de las ratas",
@@ -465,7 +465,7 @@ var datos = [
     "heroName": "Sire Denathrius",
     "heroImg": "images/hero_74_Sire_Denathrius.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Sneed",
@@ -477,7 +477,7 @@ var datos = [
     "heroName": "Sylvanas Brisaveloz",
     "heroImg": "images/hero_76_Sylvanas_Brisaveloz.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Tamsin Roame",
@@ -489,7 +489,7 @@ var datos = [
     "heroName": "Tavish Pico Tormenta",
     "heroImg": "images/hero_78_Tavish_Pico_Tormenta.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Teron Sanguino",
