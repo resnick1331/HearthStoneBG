@@ -243,7 +243,7 @@ var datos = [
     "heroName": "Kurtrus Cenizacaída",
     "heroImg": "images/hero_37_Kurtrus_Cenizacaida.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Lady Vashj",
@@ -318,6 +318,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Ojos de Serpiente",
+    "heroImg": "images/hero_95_OjosSerpiente.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Omu, celadora del bosque",
     "heroImg": "images/hero_50_Omu__celadora_del_bosque.png",
     "played": true,
@@ -357,7 +363,7 @@ var datos = [
     "heroName": "Profesor Putricidio",
     "heroImg": "images/hero_56_Profesor_Putricidio.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Príncipe mercante Gallywix",
