@@ -114,6 +114,12 @@ var datos = [
     "firstPlace": false,
     "fourthPlace": true
   },{
+    "heroName": "Doctor Holli'dae",
+    "heroImg": "images/hero_97_doctor_hollidae.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
     "heroName": "Domadinos Brann",
     "heroImg": "images/hero_18_Domadinos_Brann.png",
     "played": true,
@@ -486,6 +492,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Tae'thelan",
+    "heroImg": "images/hero_98_taethelan.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": true
+  },{
     "heroName": "Tamsin Roame",
     "heroImg": "images/hero_77_Tamsin_Roame.png",
     "played": true,
@@ -510,12 +522,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
-    "heroName": "Tiquetus",
-    "heroImg": "images/hero_81_Tiquetus.png",
+    "heroName": "Thorim, Señor de la Tormenta",
+    "heroImg": "images/hero_96_thorim_stormlord.png",
     "played": true,
-    "firstPlace": true,
-    "fourthPlace": true
-  },{
+    "firstPlace": false,
+    "fourthPlace": false
+  }, {
     "heroName": "Toki la Infinita",
     "heroImg": "images/hero_82_Toki_la_Infinita.png",
     "played": true,
