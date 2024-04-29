@@ -102,6 +102,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Cho",
+    "heroImg": "images/cho.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Cocinitas el cocinero",
     "heroImg": "images/hero_16_Cocinitas_el_cocinero.png",
     "played": true,
@@ -199,6 +205,12 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Galakrond",
+    "heroImg": "images/hero_30_Galakrond.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Gal",
     "heroImg": "images/hero_30_Galakrond.png",
     "played": true,
     "firstPlace": true,
