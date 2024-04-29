@@ -30,7 +30,17 @@ h4{
     line-height: 60px;
     text-align: center;
     border: 2px double #0a0a0a;
+    overflow: auto; 
+    white-space: pre-wrap;
+    
+}
 
+.titleContainer h4 {
+    margin: 0;
+    font-size: 100%;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .item {
