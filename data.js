@@ -93,8 +93,8 @@ var datos = [
     "heroName": "Capitán Hoggar",
     "heroImg": "images/hero_92_Capitan_Hoggar.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Chenvaala",
     "heroImg": "images/hero_15_Chenvaala.png",
@@ -103,7 +103,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Cho",
-    "heroImg": "images/cho.png",
+    "heroImg": "images/hero_99_cho.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -168,6 +168,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "El Incognito",
+    "heroImg": "images/hero_101_incognito.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
     "heroName": "El Rey Exánime",
     "heroImg": "images/hero_24_El_Rey_Exanime.png",
     "played": true,
@@ -211,7 +217,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Gal",
-    "heroImg": "images/hero_30_Galakrond.png",
+    "heroImg": "images/hero_100_gall.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -311,6 +317,12 @@ var datos = [
     "played": true,
     "firstPlace": false,
     "fourthPlace": true
+  },{
+    "heroName": "Mucus Muquitinoso",
+    "heroImg": "images/hero_103_mucus.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Mutanus el Devorador",
     "heroImg": "images/hero_46_Mutanus_el_Devorador.png",
@@ -468,6 +480,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Señora Goya",
+    "heroImg": "images/hero_102_goya.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Silas Luna Negra",
     "heroImg": "images/hero_71_Silas_Luna_Negra.png",
     "played": true,
@@ -538,7 +556,13 @@ var datos = [
     "heroImg": "images/hero_96_thorim_stormlord.png",
     "played": true,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
+  }, {
+    "heroName": "Tiquetus",
+    "heroImg": "images/hero_81_Tiquetus.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   }, {
     "heroName": "Toki la Infinita",
     "heroImg": "images/hero_82_Toki_la_Infinita.png",
@@ -573,7 +597,7 @@ var datos = [
     "heroName": "Xyrella",
     "heroImg": "images/hero_86_Xyrella.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Y'Shaarj",
