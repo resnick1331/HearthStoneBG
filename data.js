@@ -321,8 +321,8 @@ var datos = [
     "heroName": "Mucus Muquitinoso",
     "heroImg": "images/hero_103_mucus.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Mutanus el Devorador",
     "heroImg": "images/hero_46_Mutanus_el_Devorador.png",
