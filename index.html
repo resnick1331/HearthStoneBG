@@ -29,6 +29,11 @@
 <p>Primeros Puestos: <span id="cantidad-1st"></span> </p>
 <p>Podio Top 4: <span id="cantidad-4th"></span> </p>
 <div id="app" class="container-fluid">
+    <div class="row mb-3">
+        <div class="col">
+            <input type="text" v-model="searchQuery" class="form-control" placeholder="Search for a hero">
+        </div>
+    </div>
     <div class="row">
         <div v-for="hero in filteredItems" class="col-sm-6 col-md-2 d-flex">
             <div class="card flex-fill mb-3">
@@ -45,9 +50,8 @@
     </div>
 </div>
 
-
 <script>
-    let app = new Vue({
+    new Vue({
         el: '#app',
         data: {
             searchQuery: '',
@@ -60,32 +64,9 @@
                 });
             }
         },
-    })
+    });
 </script>
 
-<script>
-    let appS = new Vue({
-        el: '#app',
-        data: {
-            searchQuery: '',
-            heroes: datos
-        },
-        computed: {
-            resultQuery() {
-            if (this.searchQuery) {
-            filteredHeroes() {
-                return this.heroes.filter((hero) => {
-                    return this.searchQuery
-                    .toLowerCase()
-                    .split("")
-                    .every(v => hero.heroName.toLowerCase().includes(v));                   
-                });
-            } }else {
-                return this.resources
-            }
-        },
-    }})
-</script>
 
 </body>
 </html>
