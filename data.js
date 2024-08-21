@@ -3,7 +3,7 @@ var datos = [
     "heroName": "A. F. Ka",
     "heroImg": "images/hero_0_A_F_Ka.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
   "heroName": "Al'Akir",
@@ -369,7 +369,7 @@ var datos = [
     "heroName": "Ozumat",
     "heroImg": "images/hero_52_Ozumat.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Parches el Pirata",
@@ -525,7 +525,7 @@ var datos = [
     "heroName": "Tae'thelan",
     "heroImg": "images/hero_98_taethelan.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Tamsin Roame",
