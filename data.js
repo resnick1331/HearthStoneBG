@@ -124,7 +124,7 @@ var datos = [
     "heroImg": "images/hero_97_doctor_hollidae.png",
     "played": true,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
   },{
     "heroName": "Domadinos Brann",
     "heroImg": "images/hero_18_Domadinos_Brann.png",
@@ -159,7 +159,7 @@ var datos = [
     "heroName": "El Curator",
     "heroImg": "images/hero_22_El_Curator.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "El Gran Akazamzarak",
@@ -310,6 +310,12 @@ var datos = [
     "heroImg": "images/hero_44_Malifica_Tormenta_de_Mana.png",
     "played": true,
     "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Marin, el gerente",
+    "heroImg": "images/hero_104_marin.png",
+    "played": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Molino Tormenta de Maná",
