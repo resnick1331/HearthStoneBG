@@ -51,7 +51,7 @@ var datos = [
     "heroName": "Barón del atraco Togafloja",
     "heroImg": "images/hero_8_Baron_del_atraco_Togafloja.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Bru'kan",
@@ -108,6 +108,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Clarividente Nobundo",
+    "heroImg": "images/hero_105_nobundo.png", 
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Cocinitas el cocinero",
     "heroImg": "images/hero_16_Cocinitas_el_cocinero.png",
     "played": true,
@@ -147,7 +153,7 @@ var datos = [
     "heroName": "Edwin VanCleef",
     "heroImg": "images/hero_20_Edwin_VanCleef.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "El Carcelero",
@@ -203,6 +209,12 @@ var datos = [
     "played": true,
     "firstPlace": false,
     "fourthPlace": true
+  },{
+    "heroName": "Exarca Othaar",
+    "heroImg": "images/hero_106_exarca_othaar.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Fungimántico Flurgl",
     "heroImg": "images/hero_29_Fungimantico_Flurgl.png",
@@ -315,7 +327,7 @@ var datos = [
     "heroName": "Marin, el gerente",
     "heroImg": "images/hero_104_marin.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Molino Tormenta de Maná",
@@ -441,7 +453,7 @@ var datos = [
     "heroName": "Remendejo",
     "heroImg": "images/hero_63_Remendejo.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Reno Jackson",
@@ -464,9 +476,9 @@ var datos = [
   },{
     "heroName": "Robomejorador",
     "heroImg": "images/hero_67_Robomejorador.png",
-    "played": false,
+    "played": true,
     "firstPlace": true,
-    "fourthPlace": false
+    "fourthPlace": true
   },{
     "heroName": "Rokara",
     "heroImg": "images/hero_68_Rokara.png",
@@ -477,7 +489,7 @@ var datos = [
     "heroName": "Scabbs Cortamanteca",
     "heroImg": "images/hero_69_Scabbs_Cortamanteca.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Señor supremo Colmillosauro",
@@ -561,7 +573,7 @@ var datos = [
     "heroName": "Thorim, Señor de la Tormenta",
     "heroImg": "images/hero_96_thorim_stormlord.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   }, {
     "heroName": "Tiquetus",
@@ -629,6 +641,12 @@ var datos = [
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Zerek, maestro de clones",
+    "heroImg": "images/hero_107_zerek.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
   }
 ];
 
