@@ -212,9 +212,9 @@ var datos = [
   },{
     "heroName": "Exarca Othaar",
     "heroImg": "images/hero_106_exarca_othaar.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Fungimántico Flurgl",
     "heroImg": "images/hero_29_Fungimantico_Flurgl.png",
