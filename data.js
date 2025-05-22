@@ -27,7 +27,7 @@ var datos = [
     "heroName": "Alexstrasza",
     "heroImg": "images/hero_4_Alexstrasza.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Aranna Buscaestelar",
@@ -42,6 +42,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Artanis",
+    "heroImg": "images/hero_107_artanis.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
     "heroName": "Baldomero",
     "heroImg": "images/hero_7_Baldomero.png",
     "played": true,
@@ -53,6 +59,12 @@ var datos = [
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Botones",
+    "heroImg": "images/hero_108_botones.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Bru'kan",
     "heroImg": "images/hero_9_Bru_kan.png",
@@ -96,6 +108,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Cenarius",
+    "heroImg": "images/hero_109_cenarius.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Chenvaala",
     "heroImg": "images/hero_15_Chenvaala.png",
     "played": true,
@@ -123,7 +141,7 @@ var datos = [
     "heroName": "Daryl el Bailarín",
     "heroImg": "images/hero_17_Daryl_el_Bailarin.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Doctor Holli'dae",
@@ -135,7 +153,7 @@ var datos = [
     "heroName": "Domadinos Brann",
     "heroImg": "images/hero_18_Domadinos_Brann.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Drek'Tar",
@@ -177,7 +195,7 @@ var datos = [
     "heroName": "El Incognito",
     "heroImg": "images/hero_101_incognito.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": false
   },{
     "heroName": "El Rey Exánime",
@@ -270,11 +288,23 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Jim Raynor",
+    "heroImg": "images/hero_110_jim_raynor.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
     "heroName": "Kael'thas Caminante del Sol",
     "heroImg": "images/hero_36_Kael_thas_Caminante_del_Sol.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Kerrigan",
+    "heroImg": "images/hero_111_kerrigan.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Kurtrus Cenizacaída",
     "heroImg": "images/hero_37_Kurtrus_Cenizacaida.png",
