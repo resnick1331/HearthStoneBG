@@ -99,7 +99,7 @@ var datos = [
     "heroName": "Cariel Roame",
     "heroImg": "images/hero_14_Cariel_Roame.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Capitán Hoggar",
@@ -237,7 +237,7 @@ var datos = [
     "heroName": "Fungimántico Flurgl",
     "heroImg": "images/hero_29_Fungimantico_Flurgl.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Galakrond",
@@ -304,7 +304,7 @@ var datos = [
     "heroImg": "images/hero_111_kerrigan.png",
     "played": true,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
   },{
     "heroName": "Kurtrus Cenizacaída",
     "heroImg": "images/hero_37_Kurtrus_Cenizacaida.png",
@@ -363,7 +363,7 @@ var datos = [
     "heroName": "Molino Tormenta de Maná",
     "heroImg": "images/hero_45_Molino_Tormenta_de_Mana.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Mucus Muquitinoso",
