@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="data.js"></script>
     <meta charset="UTF-8">
     <title>HearthStone</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
-          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <script src="data.js"></script>
     <link rel="stylesheet" type="text/css" href="miEstilo.css">
+    <meta name="viewport" content="width=device-width">
 </head>
 <body onload="actualizarCantidadHeroes()">
+<div id="app">
 <img src="images/logo_header.webp" class="logo">
-
 
 <template>
     <div id="appS">
@@ -23,12 +20,17 @@
     </div>
 </template>
 
-
-
 <p>Cantidad de Heroes: <span id="cantidad-heroes"></span></p>
-<p>Primeros Puestos: <span id="cantidad-1st"></span> </p>
+<p>Primeros Puestos: <span id="cantidad-1st"></span> 
+    <img src="images/trophy-96.png" alt="Trophy" style="width: 20px; height: 20px; vertical-align: middle;">
+</p>
 <p>Podio Top 4: <span id="cantidad-4th"></span> </p>
 <div id="app" class="container-fluid">
+    <div class="row mb-3">
+        <div class="col-2">
+            <input type="text" v-model="searchQuery" class="form-control" placeholder="Search for a hero">
+        </div>
+    </div>
     <div class="row">
         <div v-for="hero in filteredItems" class="col-sm-6 col-md-2 d-flex">
             <div class="card flex-fill mb-3">
@@ -37,17 +39,16 @@
                         <h4>{{ hero.heroName }}</h4>
                     </div>
                     <img :src="hero.heroImg" :alt="'Imagen de ' + hero.heroName" :style="{filter: hero.firstPlace ? '' : hero.fourthPlace ? 'sepia(90%)' : 'grayscale(100%)'}">
-                    <p>Gane: {{hero.firstPlace}}</p>
-                    <p>4to: {{hero.fourthPlace}}</p>
+                    <!--<p>Gane: {{hero.firstPlace}}</p>
+                    <p>4to: {{hero.fourthPlace}}</p>-->
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-
 <script>
-    let app = new Vue({
+    new Vue({
         el: '#app',
         data: {
             searchQuery: '',
@@ -60,32 +61,9 @@
                 });
             }
         },
-    })
+    });
 </script>
 
-<script>
-    let appS = new Vue({
-        el: '#app',
-        data: {
-            searchQuery: '',
-            heroes: datos
-        },
-        computed: {
-            resultQuery() {
-            if (this.searchQuery) {
-            filteredHeroes() {
-                return this.heroes.filter((hero) => {
-                    return this.searchQuery
-                    .toLowerCase()
-                    .split("")
-                    .every(v => hero.heroName.toLowerCase().includes(v));                   
-                });
-            } }else {
-                return this.resources
-            }
-        },
-    }})
-</script>
 
 </body>
 </html>
