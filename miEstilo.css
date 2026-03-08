@@ -1,10 +1,22 @@
+@font-face {
+    font-family: Belwe;
+    src: url("font/odend.ttf");
+}
+
 body{
     text-align: center;
+    background: #fd9;
+    font-family: Belwe, Georgia, 'Times New Roman', Times, serif;
 }
 
 img{
     margin: -20px 0px;
     width: 100%;
+    transition: transform 0.3s;
+}
+
+img:hover{
+    transform: perspective(500px) rotateX(2.27deg) rotateY(5.54deg) scale3d(1.035,1.035,1.035);
 }
 
 .logo{
@@ -15,7 +27,7 @@ img{
 }
 
 .card-header{
-    background: rgba(255, 255, 255, 0.73) !important;
+    background: rgba(255, 221, 153, 0.8) !important;
 }
 
 h4{
@@ -48,4 +60,9 @@ h4{
     background-color: #8ca0ff;
     /*#padding: 25px;
     margin-bottom: 5em;*/
+}
+
+input {
+    line-height: 1.5em;
+    border-radius: 2em;
 }
