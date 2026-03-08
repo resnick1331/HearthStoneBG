@@ -43,7 +43,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Artanis",
-    "heroImg": "images/hero_107_artanis.png",
+    "heroImg": "images/hero_108_artanis.png",
     "played": true,
     "firstPlace": false,
     "fourthPlace": false
@@ -61,7 +61,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Botones",
-    "heroImg": "images/hero_108_botones.png",
+    "heroImg": "images/hero_109_botones.png",
     "played": true,
     "firstPlace": false,
     "fourthPlace": false
@@ -109,7 +109,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Cenarius",
-    "heroImg": "images/hero_109_cenarius.png",
+    "heroImg": "images/hero_110_cenarius.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -137,6 +137,12 @@ var datos = [
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Cromi",
+    "heroImg": "images/hero_116_Cromi.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Daryl el Bailarín",
     "heroImg": "images/hero_17_Daryl_el_Bailarin.png",
@@ -289,7 +295,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Jim Raynor",
-    "heroImg": "images/hero_110_jim_raynor.png",
+    "heroImg": "images/hero_111_jim_raynor.png",
     "played": false,
     "firstPlace": false,
     "fourthPlace": false
@@ -301,7 +307,7 @@ var datos = [
     "fourthPlace": true
   },{
     "heroName": "Kerrigan",
-    "heroImg": "images/hero_111_kerrigan.png",
+    "heroImg": "images/hero_112_kerrigan.png",
     "played": true,
     "firstPlace": false,
     "fourthPlace": true
@@ -317,6 +323,12 @@ var datos = [
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Loh, la Leyenda Viviente",
+    "heroImg": "images/hero_113_LohLeyendaViviente.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Lord Barov",
     "heroImg": "images/hero_39_Lord_Barov.png",
@@ -366,11 +378,23 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Morchie",
+    "heroImg": "images/hero_114_Morchie.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
+  },{
     "heroName": "Mucus Muquitinoso",
     "heroImg": "images/hero_103_mucus.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Murozond",
+    "heroImg": "images/hero_115_Murozond.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Mutanus el Devorador",
     "heroImg": "images/hero_46_Mutanus_el_Devorador.png",
