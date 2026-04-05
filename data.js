@@ -1,4 +1,4 @@
-var datos = [
+const datos = [
   {
     "heroName": "A. F. Ka",
     "heroImg": "images/hero_0_A_F_Ka.png",
@@ -54,7 +54,7 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
-    "heroName": "Barón del atraco Togafloja",
+    "heroName": "Barón Togafloja",
     "heroImg": "images/hero_8_Baron_del_atraco_Togafloja.png",
     "played": true,
     "firstPlace": true,
@@ -132,6 +132,24 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Chenvaala",
+    "heroImg": "images/hero_15_Chenvaala.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Cho",
+    "heroImg": "images/hero_96_cho.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Clarividente Nobundo",
+    "heroImg": "images/hero_104_clarividente_nobundo.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Cocinitas el cocinero",
     "heroImg": "images/hero_16_Cocinitas_el_cocinero.png",
     "played": true,
@@ -170,12 +188,6 @@ var datos = [
   },{
     "heroName": "ETC Representante",
     "heroImg": "images/hero_93_ETC_representante.png",
-    "played": true,
-    "firstPlace": true,
-    "fourthPlace": true
-  },{
-    "heroName": "Edwin VanCleef",
-    "heroImg": "images/hero_20_Edwin_VanCleef.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -236,6 +248,12 @@ var datos = [
   },{
     "heroName": "Exarca Othaar",
     "heroImg": "images/hero_106_exarca_othaar.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Exarca Othaar",
+    "heroImg": "images/hero_105_exarca_othaar.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
@@ -351,7 +369,7 @@ var datos = [
     "heroName": "Maiev Cantosombrío",
     "heroImg": "images/hero_42_Maiev_Cantosombrio.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Malygos",
@@ -459,7 +477,7 @@ var datos = [
     "heroName": "Portavoz de la muerte Espina Negra",
     "heroImg": "images/hero_55_Portavoz_de_la_muerte_Espina_Negra.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Profesor Putricidio",
@@ -525,7 +543,7 @@ var datos = [
     "heroName": "Rey de las ratas",
     "heroImg": "images/hero_66_Rey_de_las_ratas.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Robomejorador",
@@ -642,6 +660,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Thorim, Señor de la Tormenta",
+    "heroImg": "images/hero_95_thorim_senor_de_la_tormenta.png",
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
+  },{
     "heroName": "Vanndar Pico Tormenta",
     "heroImg": "images/hero_83_Vanndar_Pico_Tormenta.png",
     "played": true,
@@ -678,7 +702,7 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
-    "heroName": "Yogg-Saron, Fin de la Esperanza",
+    "heroName": "Yogg-Saron",
     "heroImg": "images/hero_88_Yogg-Saron__Fin_de_la_Esperanza.png",
     "played": true,
     "firstPlace": true,
