@@ -45,8 +45,8 @@ var datos = [
     "heroName": "Artanis",
     "heroImg": "images/hero_108_artanis.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Baldomero",
     "heroImg": "images/hero_7_Baldomero.png",
@@ -63,8 +63,8 @@ var datos = [
     "heroName": "Botones",
     "heroImg": "images/hero_109_botones.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Bru'kan",
     "heroImg": "images/hero_9_Bru_kan.png",
@@ -141,8 +141,8 @@ var datos = [
     "heroName": "Cromi",
     "heroImg": "images/hero_116_Cromi.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Daryl el Bailarín",
     "heroImg": "images/hero_17_Daryl_el_Bailarin.png",
@@ -153,7 +153,7 @@ var datos = [
     "heroName": "Doctor Holli'dae",
     "heroImg": "images/hero_97_doctor_hollidae.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Domadinos Brann",
@@ -231,7 +231,7 @@ var datos = [
     "heroName": "Exánime Baz'hial",
     "heroImg": "images/hero_28_Exanime_Baz_hial.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Exarca Othaar",
@@ -256,6 +256,12 @@ var datos = [
     "heroImg": "images/hero_100_gall.png",
     "played": true,
     "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Genn, Rey Worgen",
+    "heroImg": "images/hero_117_gennReyWorgen.png",
+    "played": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "George el Caído",
@@ -309,7 +315,7 @@ var datos = [
     "heroName": "Kerrigan",
     "heroImg": "images/hero_112_kerrigan.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Kurtrus Cenizacaída",
@@ -326,9 +332,9 @@ var datos = [
   },{
     "heroName": "Loh, la Leyenda Viviente",
     "heroImg": "images/hero_113_LohLeyendaViviente.png",
-    "played": false,
-    "firstPlace": false,
-    "fourthPlace": false
+    "played": true,
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Lord Barov",
     "heroImg": "images/hero_39_Lord_Barov.png",
@@ -381,8 +387,8 @@ var datos = [
     "heroName": "Morchie",
     "heroImg": "images/hero_114_Morchie.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Mucus Muquitinoso",
     "heroImg": "images/hero_103_mucus.png",
@@ -393,8 +399,8 @@ var datos = [
     "heroName": "Murozond",
     "heroImg": "images/hero_115_Murozond.png",
     "played": true,
-    "firstPlace": false,
-    "fourthPlace": false
+    "firstPlace": true,
+    "fourthPlace": true
   },{
     "heroName": "Mutanus el Devorador",
     "heroImg": "images/hero_46_Mutanus_el_Devorador.png",
@@ -447,7 +453,7 @@ var datos = [
     "heroName": "Parches el Pirata",
     "heroImg": "images/hero_53_Parches_el_Pirata.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Piramido",
@@ -525,7 +531,7 @@ var datos = [
     "heroName": "Rey de las ratas",
     "heroImg": "images/hero_66_Rey_de_las_ratas.png",
     "played": true,
-    "firstPlace": false,
+    "firstPlace": true,
     "fourthPlace": true
   },{
     "heroName": "Robomejorador",
@@ -546,11 +552,17 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
-    "heroName": "Señor supremo Colmillosauro",
+    "heroName": "Señor Supremo Colmillosauro",
     "heroImg": "images/hero_70_Señor_supremo_Colmillosauro.png",
     "played": true,
     "firstPlace": true,
     "fourthPlace": true
+  },{
+    "heroName": "Señor TicTac",
+    "heroImg": "images/hero_118_TicTac.png",
+    "played": false,
+    "firstPlace": false,
+    "fourthPlace": false
   },{
     "heroName": "Señora Goya",
     "heroImg": "images/hero_102_goya.png",
@@ -642,6 +654,12 @@ var datos = [
     "firstPlace": true,
     "fourthPlace": true
   },{
+    "heroName": "Tras'tath, parasito de almas",
+    "heroImg": "images/hero_120_Trastath.png",
+    "played": true,
+    "firstPlace": false,
+    "fourthPlace": true
+  },{
     "heroName": "Vanndar Pico Tormenta",
     "heroImg": "images/hero_83_Vanndar_Pico_Tormenta.png",
     "played": true,
@@ -664,6 +682,12 @@ var datos = [
     "heroImg": "images/hero_91_Voone_maestro_del_rock.png",
     "played": true,
     "firstPlace": true,
+    "fourthPlace": true
+  },{
+    "heroName": "Xavius",
+    "heroImg": "images/hero_119_Xavius.png",
+    "played": true,
+    "firstPlace": false,
     "fourthPlace": true
   },{
     "heroName": "Xyrella",
@@ -700,7 +724,7 @@ var datos = [
     "heroImg": "images/hero_107_zerek.png",
     "played": false,
     "firstPlace": false,
-    "fourthPlace": false
+    "fourthPlace": true
   }
 ];
 
